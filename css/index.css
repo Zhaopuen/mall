@@ -1,0 +1,431 @@
+@import url(base.css);
+*{
+	box-sizing:border-box;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+body{
+	width:100%;
+	background: #F7F7F7;
+}
+/*头部开始*/
+.header-box{
+	width:100%;
+	background: #474747;
+	position: relative;
+}
+.header-left{
+	width: 12%;
+	color: #fff;
+	text-align:center;
+	float: left;
+	font-size:23px;
+	padding-top: 2%; 
+}
+.headertu{
+	width: 12%;
+	padding: 0.5% 0;
+}
+.headertu img{
+	width: 100%;
+}
+.xx{
+	display: inline-block;
+}
+.header-box .header-right{
+	width: 36%;
+	color: #fff;
+	font-size: 10px;
+	position: absolute;
+	bottom:30%;
+	left:25%;
+}
+.header-box .header-right h3{
+	font-size: 12px;
+}
+.header-box .header-right p{
+	font-size: 10px;
+}
+/*头部结束*/
+/*搜索框开始*/
+.research{
+	width: 100%;
+	background: #f7f7f7;
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+}
+.research div{
+	width:100%;
+	padding:2%;
+}
+.inputs{
+	width: 100%;
+	background: #fff;
+	border-radius: 5px;
+	border: 0;
+	padding: 2% 4%;
+    font-size: 15px;
+}
+/*搜索框结束*/
+/*轮播图开始*/
+.bannerbox{
+	width:100%;
+}
+.bannermid{
+	margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.bannermid a img{
+	width:100%;
+}
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
+.swiper-slide a img{
+	width:100%;
+}
+/*轮播图结束*/
+/*360手机开始*/
+.phonebox{
+    width:100%;
+    border-bottom: 1px solid #EAEAEA;
+    overflow: hidden;
+    padding: 5% 0;
+    background: #fff;
+
+}
+.phoneone{
+	float:left;
+	padding:0;
+	width: 25%;
+}
+.phoneone a{
+	color: #666;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.phoneone span{
+	display: block;
+    font-size: 14px;
+    /*padding-top: 3%;
+    padding-left:3%;*/
+    text-align: center;
+}
+/*.first-news{
+	width:100%;
+	background: #fff;
+	padding:3% 5%;
+}
+.zhineng{
+	border-right: 1px solid #E1E1E1;
+    float: left;
+    font-size: 12px;
+    padding-right: 5%;
+}
+.zhineng img{
+	font-size: 12px;
+    height: 1.6rem;
+    overflow: hidden;
+    width: 60%;
+}*/
+/*360手机结束*/
+/*掌上抢开始*/
+.qiangbox{
+	width:100%;
+	background: #fff;
+	margin-top: 5%;
+}
+.qiangstart{
+	border-bottom: 1px solid #EAEAEA;
+    clear: both;
+    height: 16%;
+    line-height: 16%;
+    padding: 0;
+    position: relative;
+}
+.zsqiang{
+	color: #F55;
+    display: inline-block;
+    font-size: 8px;
+    padding:5%;
+    float:left;
+}
+.jbj{
+    float:right;
+    color: #000;
+    display: inline-block;
+    font-size: 12px;
+    padding:5%;
+}
+.qend{
+	float:left;
+	color: #000;
+    display: inline-block;
+    font-size: 8px;
+    padding:5%;
+}
+.qiangimgone{
+	width:33.3333%;
+	background: #fff;
+    float:left;
+    border-right: 1px solid #ccc;
+}
+.qiangimgone img{
+	width:100%;
+}
+.qiangimgone span{
+	display: block;
+    font-size: 14px;
+    padding-top: 3%;
+    padding-left:12%;
+    padding-bottom: 10%;
+    overflow: hidden;
+    width:100%;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+/*掌上抢结束*/
+/*明星产品开始*/
+.mxdp{
+	width:100%;
+	text-align: center;
+	padding:10px;
+	background: #F7F7F7;
+}
+.starbox{
+	width:100%;
+	background: #fff;
+	margi n-top: 5%;
+	overflow: hidden;
+}
+.starcontent{
+	border-right: 1px solid #F1F1F1;
+    padding: 7% 0 3%;
+    text-align: center;
+    width: 50%;
+    float: left;
+    border-bottom: 1px solid #EAEAEA;
+}
+.starcontent img{
+	width:100%;
+}
+.starcontent span{
+	display: block;
+    font-size: 14px;
+    padding-top: 3%;
+    paddi ng-left:12%;
+    padding-bottom: 10%;
+}
+.starcontent .spans{
+	color:red;
+}
+/*明星产品结束*/
+/*新品上市开始*/
+.xpss{
+	width:100%;
+	text-align: center;
+	padding:10px;
+	background: #F7F7F7;
+}
+.newproudct{
+	width:100%;
+	background: #fff;
+}
+.xinpin{
+	margin-top: 5%;
+}
+.nemp img{
+	width:100%;
+    
+}
+.nemp span{
+	display: block;
+    font-size: 1.4rem;
+    padding-top: 3%;
+    padding-left:5%;
+    padding-bottom: 3%;
+}
+.nemp p{
+	display: block;
+    font-size: 14px;
+    padding-top: 0%;
+    padding-left:5%;
+    padding-bottom: 5%;
+    color:#ccc;
+}
+/*新品上市结束*/
+/*手机配件开始*/
+.shouji{
+	width:100%;
+	background:#fff;
+}
+.shoujiipone{
+	margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.shoujiipone a img{
+	width:100%;
+}
+.peijian{
+	border-right: 1px solid #F1F1F1;
+    text-align: center;
+    width: 50%;
+    float: left;
+    border-bottom: 1px solid #EAEAEA;
+    background: #fff;
+}
+.peijian a img{
+	width:100%;
+}
+.ns{
+	font-size: 14px;
+	color:#555;
+	float:left;
+	padding:6px;
+
+}
+.twoday{
+	font-size: 14px;
+	color:#555;
+	float:left;
+	padding:6px;
+	overflow: hidden;
+    width:100%;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+.ninenine{
+	font-size: 15px;
+	color:red;
+	float:left;
+	padding:6px;
+}
+.shouji{
+	width:100%;
+	background: #fff;
+	overflow: hidden;
+	margin- top:10%;
+}
+/*.mxdp1{
+	text-align: center;
+	paddi ng: 10px;
+	background: #F7F7F7;
+	width:100%;
+	font-size: 14px;
+}*/
+/*手机配件结束*/
+/*更多商品开始*/
+.shangpin{
+	width:100%;
+	font-size: 14px;
+	color:#555;
+	text-align: center;
+	padding:15px;
+	background: #f7f7f7;
+}
+.morebox{
+	width:100%;
+	background: #fff;
+	overflow: hidden;
+}
+.sevenbox{
+	border-right:1px solid #ccc;
+    border-top:1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    width:100%;
+}
+.sevenday{
+	width:33.333333%;
+    /*margin:25px;*/
+    /*padding: */
+    float: left;
+    border-right:1px solid #ccc;
+    padding:3%;
+}
+.sevenyuan{
+	width:35px;
+	height:35px;
+	border-radius: 50%;
+	border:1px solid #ccc;
+	margin-left:30%;
+	/*text-align: center;*/
+	/*padding:1px;*/
+	/*margin:30px;*/
+}
+.sevenyuan span{
+	display: block;
+	/*margin- left:10%;*/
+	font-size: 14px;
+	text-align:center;
+	line-height:35px;
+	color:#333;
+}
+.sevenday p{
+	text-align: center;
+    font-size:12px;
+    padding-top: 10%;
+}
+.kefubox{
+	width:100%;
+	background: #fff;
+    /*padding-top:15px;*/
+    padding-bottom:15px;
+    margin-top: 25%;
+    margin-bottom: 15%;
+}
+.kefu{
+	display: block;
+    color:#555;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10%;
+}
+.kefu1{
+	display: block;
+    color:#555;
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+
+
+
+/*更多商品结束*/
+/*footer开始*/
+.footerbox{
+	width:100%;
+	background: #fff;
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 111;
+}
+.footerone{
+	width:25%;
+	text-align: center;
+	float:left;
+}
+.footerone img{
+	margin-top: 10%;
+}
+.footerone span{
+	font-size: 14px;
+	color:#555;
+	padding: 10%;
+	text-align: center;
+}
+/*footer结束*/
